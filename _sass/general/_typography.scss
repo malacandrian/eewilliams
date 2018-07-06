@@ -1,0 +1,90 @@
+*, body
+{
+  @include font-modular-scale(0);
+  font-family: $bodyFont;
+
+  vertical-align: baseline;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+  text-transform: capitalize;
+  text-align: center;
+
+  font-family: $headerFont;
+
+  margin-top: line-measure(1);
+
+  & + h1, & + h2, & + h3, & + h4, & + h5, & + h6
+  {
+    margin-top: 0;
+  }
+
+  &:first-child
+  {
+    margin-top: 0;
+  }
+
+  a:link, a:visited a:hover, a:active
+  {
+    font-weight: normal;
+    text-decoration: none;
+  }
+}
+
+h1
+{
+  @include font-modular-scale(5);
+  border-bottom: 1px solid $black;
+  margin-bottom: line-measure(1);
+}
+
+h2
+{
+  @include font-modular-scale(4);
+  border-bottom: 1px solid $black;
+  margin-bottom: line-measure(0.5);
+}
+
+h3
+{
+  @include font-modular-scale(3);
+}
+
+h4
+{
+  @include font-modular-scale(2);
+}
+
+h5
+{
+  @include font-modular-scale(1);
+}
+
+h6
+{
+  @include font-modular-scale(0);
+}
+
+a, a:link, a:visited, a:hover, a:active
+{
+  text-decoration: underline;
+  font-weight: bold;
+  color: $black;
+}
+
+.main-menu
+{
+  @include font-scale(1.5);
+  font-family: $headerFont;
+}
+
+strong
+{
+  font-weight: bold;
+}
+
+p
+{
+  margin-bottom: line-measure(0.5);
+}

@@ -1,0 +1,117 @@
+html
+{
+  height: 100%;
+}
+
+body
+{
+  background-image: url(/resources/images/circles-light.png);
+  height: 100%;
+}
+
+.frame
+{
+  width: 100%;
+  max-width: 960px;
+  min-height: 100%;
+  position: relative;
+  z-index: -10;
+  margin-left: auto;
+  margin-right: auto;
+
+  border-top: $blue1 solid 5pt;
+  border-bottom: $blue1 solid 5pt;
+  background-color: $white;
+
+}
+
+.masthead
+{
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo
+{
+  img
+  {
+    margin-top: line-measure(1);
+    height: line-measure(8);
+  }
+}
+
+ul.contactInfo
+{
+  display: flex;
+
+  @include font-modular-scale(2);
+
+
+  li
+  {
+    margin-left: 1em;
+
+    &:first-child
+    {
+      margin-left: 0;
+    }
+
+    a
+    {
+      &:link, &:visited, &:hover, &:active
+      {
+        text-decoration: none;
+        color: $blue4;
+      }
+    }
+  }
+}
+
+.slugBar
+{
+  width: 100%;
+  background-color: $blue1;
+  box-shadow: 0px 5px hsla(0, 0%, 0%, 0.125);
+
+  p
+  {
+    color: $white;
+    font-weight: bold;
+    width: 100%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: line-measure(0.5);
+  }
+}
+
+.primaryNav
+{
+  width: 100%;
+  background-color: $blue4;
+
+  position: relative;
+  z-index: -1;
+
+  ul
+  {
+    width: 100%;
+    display: flex;
+
+    li
+    {
+      flex-grow: 1;
+      text-align: center;
+      border-left: 1px solid $black;
+
+      &:first-child
+      {
+        border-left: none;
+      }
+    }
+  }
+}
