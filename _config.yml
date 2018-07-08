@@ -35,6 +35,12 @@ collections:
 defaults:
   -
     scope:
+      path: ""
+      type: pages
+    values:
+      layout: page
+  -
+    scope:
       path: "_sass"
     values:
       permalink: /resources/css/:basename.css

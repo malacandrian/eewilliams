@@ -13,11 +13,12 @@ body
 {
   width: 100%;
   max-width: 960px;
-  min-height: 100%;
   position: relative;
   z-index: 5;
   margin-left: auto;
   margin-right: auto;
+  margin-top: line-measure(0.5);
+  margin-bottom: line-measure(0.5);
 
   border-top: $blue1 solid 5pt;
   border-bottom: $blue1 solid 5pt;
@@ -30,10 +31,21 @@ body
 main
 {
   margin-top: line-measure(0.5);
+
+  & > p
+  {
+    max-width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+
+    text-align: center;
+  }
+
 }
 
 .pageFooter
 {
+
   text-align: center;
   color: $blue4;
 }
