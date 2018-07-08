@@ -16,7 +16,9 @@
 @media screen
 {
   //Import styles common to all screens
+  @import 'media/overall';
   @import 'media/masthead';
+  @import 'media/bookDetails';
 
   //Import mobile-only styles
   @media (max-width: 699px)

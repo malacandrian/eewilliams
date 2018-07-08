@@ -2,7 +2,7 @@
 //  If a fraction of a line is requested, it will be rounded up to the next permitted division
 @function line-measure($num)
 {
-  @return $baseFontSize * $num;
+  @return $baseFontSize * $lineHeight * $num;
 }
 
 @function modular-scale($scale)

@@ -34,26 +34,24 @@ h1, h2, h3, h4, h5, h6
 
 h1
 {
-  @include font-modular-scale(5);
-  border-bottom: 1px solid $black;
-  margin-bottom: line-measure(1);
+  @include font-modular-scale(3);
+  color: $blue1;
 }
 
 h2
 {
-  @include font-modular-scale(4);
-  border-bottom: 1px solid $black;
-  margin-bottom: line-measure(0.5);
+  @include font-modular-scale(2);
+  color: $blue2;
 }
 
 h3
 {
-  @include font-modular-scale(3);
+  @include font-modular-scale(1.5);
 }
 
 h4
 {
-  @include font-modular-scale(2);
+  @include font-modular-scale(1);
 }
 
 h5
@@ -87,4 +85,15 @@ strong
 p
 {
   margin-bottom: line-measure(0.5);
+}
+
+em
+{
+  font-style: italic;
+}
+
+strong
+{
+  font-style: bold;
+  color: $blue1;
 }
