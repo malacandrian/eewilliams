@@ -1,0 +1,47 @@
+.archive
+{
+  display: flex;
+  flex-wrap: wrap;
+
+  li
+  {
+    width: calc(50% - 1.5rem);
+    height: line-measure(9);
+    margin-left: 1rem;
+    margin-bottom: line-measure(0.5);
+    border: 3px solid $blue1;
+  }
+
+  h2
+  {
+    writing-mode: sideways-lr;
+    float: left;
+    height: 100%;
+    border-right: 2px solid $blue1;
+    background-color: $white;
+  }
+
+  p
+  {
+    text-align: center;
+  }
+
+  a
+  {
+    &, &:link, &:visited, &:hover, &:active
+    {
+      text-decoration: none;
+      color: $black;
+    }
+  }
+
+  img
+  {
+    background-color: magenta;
+    width: 100%;
+    height: line-measure(5);
+    object-fit: cover;
+    display: block;
+    border-bottom: 2px solid $blue1;
+  }
+}

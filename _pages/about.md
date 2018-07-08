@@ -1,6 +1,6 @@
 ---
   title: About Us
-  permalink: /About
+  permalink: /about
 ---
 **Why does theology have to be complicated?**
 

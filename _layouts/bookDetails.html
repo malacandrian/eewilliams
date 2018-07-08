@@ -10,12 +10,8 @@
         <h2>{{feature.title}}</h2>
         <p>{{feature.text}}</p>
       </div>
-      <picture>
-        {% for source in feature.imageSources %}
-          <source srcset="{{site.data.resources.imgRoot}}/feature-images/{{page.slug}}/{{source.srcset}}" media="{{source.media}}" type="{{source.type}}" />
-        {% endfor %}
-        <img src="{{site.data.resources.imgRoot}}/feature-images/{{page.slug}}/{{feature.defaultImage}}" alt="{{feature.title}}" title="{{feature.title}}" />
-      </picture>
+      {% capture root %}{{site.data.resources.imgRoot}}/feature-images/{{page.slug}}{% endcapture %}
+      {% include picture.html root=root picture=feature.picture %}
     </li>
   {% endfor %}
 </ul>

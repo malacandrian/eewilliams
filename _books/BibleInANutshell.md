@@ -1,5 +1,6 @@
 ---
   title: "Bible in a Nutshell"
+  slug: nutshell
 
   features:
     -

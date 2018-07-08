@@ -1,5 +1,6 @@
 ---
   title: "Activity Book"
+  slug: activity
   features:
     -
         title: "Crafts"

@@ -1,0 +1,17 @@
+---
+  layout: main
+---
+{{ content }}
+<ul class="archive">
+  {% assign collection = site[page.collection] %}
+  {% for item in collection %}
+    <li>
+      <a href="{{item.url}}">
+        <h2>{{item.title}}</h2>
+        {% capture root %}{{site.data.resources.imgRoot}}/archive{% endcapture %}
+        {% include picture.html picture=item.archive-picture root=root %}
+        {{item.excerpt}}
+      </a>
+    </li>
+  {% endfor %}
+</ul>

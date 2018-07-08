@@ -1,5 +1,6 @@
 ---
   title: "Puzzle Book"
+  slug: puzzle
   features:
     -
         title: "Colouring In"
@@ -109,17 +110,19 @@
     -
           title: "Spot the Difference"
           text: >-
-
-          imageSources:
-          -
-            srcset: shortBook-hiDPI.jpg
-            media: "(min-device-pixel-ratio: 1.5)"
-            type: image/jpg
-          -
-            srcset: shortBook-Regular.jpg
-            media: "screen"
-            type: image/jpg
-          defaultImage: shortBook-Default.jpg
+          picture:
+            imageSources:
+            -
+              srcset: shortBook-hiDPI.jpg
+              media: "(min-device-pixel-ratio: 1.5)"
+              type: image/jpg
+            -
+              srcset: shortBook-Regular.jpg
+              media: "screen"
+              type: image/jpg
+            defaultImage: shortBook-Default.jpg
+            altText: a
+            titleText: b
 
     -
           title: "Odd one Out"
@@ -166,6 +169,6 @@
             type: image/jpg
           defaultImage: shortBook-Default.jpg
 ---
-A fun, interactive way to understand the Bible. Work through the book from start to finish to unfold the story puzzle by puzzle.
+A fun, interactive way to understand the Bible. Work through the book from start to finish to unfold the story puzzle by puzzle.<!--more-->
 
 ## Puzzles you can expect to find: ##

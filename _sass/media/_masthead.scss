@@ -36,7 +36,7 @@ ul.contactInfo
 
     a
     {
-      &:link, &:visited, &:hover, &:active
+      &, &:link, &:visited, &:hover, &:active
       {
         text-decoration: none;
         color: $blue4;

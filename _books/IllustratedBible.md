@@ -1,5 +1,6 @@
 ---
   title: "Illustrated Bible"
+  slug: illustrated
   features:
     -
         title: "The Story"
@@ -31,6 +32,6 @@
               type: image/jpg
           defaultImage: shortBook-Default.jpg
 ---
-A book aimed at showing even the little ones the beauty of Jesus in the passage.
+A book aimed at showing even the little ones the beauty of Jesus in the passage.<!--more-->
 
 *Note: We expect an adult to read this with a child. We like to aim slightly higher than the child's age to help them learn, so some vocabulary may need explaining to the child.*

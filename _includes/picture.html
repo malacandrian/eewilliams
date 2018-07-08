@@ -1,0 +1,6 @@
+<picture>
+  {% for source in include.picture.imageSources %}
+    <source srcset="{{include.root}}/{{source.srcset}}" media="{{source.media}}" type="{{source.type}}" />
+  {% endfor %}
+  <img src="{{include.root}}/{{include.picture.defaultImage}}" alt="{{include.picture.altText}}" title="{{include.picture.titleText}}" />
+</picture>

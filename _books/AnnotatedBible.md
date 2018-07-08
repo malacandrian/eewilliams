@@ -1,5 +1,6 @@
 ---
   title: "Annotated Bible"
+  slug: annotated
   features:
     -
         title: "Word Definitions"

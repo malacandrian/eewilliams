@@ -27,12 +27,20 @@ twitter_username: _eewilliams
 collections:
   books:
     output: true
-    permalink: /books/:title
+    permalink: /books/:slug
+  series:
+    output: false
 
 
 
 # Defaults
 defaults:
+  -
+    scope:
+      path: ""
+    values:
+      excerpt_separator: <!--more-->
+
   -
     scope:
       path: ""
