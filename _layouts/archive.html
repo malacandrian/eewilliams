@@ -2,7 +2,7 @@
   layout: main
 ---
 {{ content }}
-<menu class="archive" type="toolbar">
+<menu class="archive">
   {% assign collection = site[page.collection] | sort: page.sort.by %}
   {% if page.sort.descending %}
     {% assign collection = collection | reverse %}

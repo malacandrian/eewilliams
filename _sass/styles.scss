@@ -20,16 +20,4 @@
   @import 'media/masthead';
   @import 'media/bookDetails';
   @import 'media/archive';
-
-  //Import mobile-only styles
-  @media (max-width: 699px)
-  {
-    @import 'media/mobile';
-  }
-
-  //Import desktop/tablet-only styles
-  @media (min-width: 700px)
-  {
-    @import 'media/desktop';
-  }
 }

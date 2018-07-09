@@ -18,16 +18,25 @@
   }
 }
 
-ul.contactInfo
+.contactInfo
 {
   display: flex;
 
-  @include font-modular-scale(2);
+  @media (max-width: $mobile-width - 1)
+  {
+    flex-direction: column;
+  }
 
 
-  li
+  menuitem
   {
     margin-left: 1em;
+    @include font-modular-scale(2);
+
+    @media (max-width: $mobile-width - 1)
+    {
+      margin-left: 0;
+    }
 
     &:first-child
     {

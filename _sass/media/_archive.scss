@@ -1,64 +1,111 @@
-.archive
+$archive-card-width: 435px;
+$archive-card-padding: 15px;
+@media (min-width: $archive-card-width + $archive-card-padding)
 {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-
-
-  menuitem
+  .archive
   {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
 
-    height: line-measure(10);
-    margin-bottom: line-measure(0.5);
-    border: 3px solid $blue1;
-    box-shadow: 3px 3px $shadow;
-
-    display: grid;
-
-    grid-template-columns: line-measure(1.5) auto;
-    grid-template-rows: auto line-measure(3.5);
-    grid-template-areas:
-      "title picture"
-      "title text";
-
-
-  }
-
-  h2
-  {
-    writing-mode: vertical-lr;
-    height: 100%;
-    border-right: 2px solid $blue1;
-    grid-area: title;
-  }
-
-  p
-  {
-    text-align: center;
-    grid-area: text;
-  }
-
-  a
-  {
-    width: calc(50% - 1.5rem);
-    min-width: 435px;
-
-    &, &:link, &:visited, &:hover, &:active
+    menuitem
     {
-      text-decoration: none;
-      color: $black;
+
+
+      height: line-measure(10);
+      margin-bottom: line-measure(0.5);
+      border: 3px solid $blue1;
+      box-shadow: 3px 3px $shadow;
+
+      display: grid;
+
+      grid-template-columns: line-measure(1.5) auto;
+      grid-template-rows: auto line-measure(3.5);
+      grid-template-areas:
+        "title picture"
+        "title text";
+
+
+    }
+
+    h2
+    {
+      writing-mode: vertical-lr;
+      height: 100%;
+      border-right: 2px solid $blue1;
+      grid-area: title;
+    }
+
+    p
+    {
+      text-align: center;
+      grid-area: text;
+    }
+
+    a
+    {
+      width: calc(50% - 1.5rem);
+      min-width: $archive-card-width;
+
+      &, &:link, &:visited, &:hover, &:active
+      {
+        text-decoration: none;
+        color: $black;
+      }
+    }
+
+    img
+    {
+      width: 100%;
+      height: line-measure(6.5);
+      object-fit: cover;
+      display: block;
+      border-bottom: 2px solid $blue1;
+      grid-area: picture;
     }
   }
+}
 
-  img
+@media(max-width: $archive-card-width + $archive-card-padding - 1)
+{
+  .archive
   {
-    background-color: magenta;
-    width: 100%;
-    height: line-measure(6.5);
-    object-fit: cover;
-    display: block;
-    border-bottom: 2px solid $blue1;
-    grid-area: picture;
+    a
+    {
+
+      &, &:link, &:visited, &:hover, &:active
+      {
+        text-decoration: none;
+        color: $black;
+      }
+    }
+
+    menuitem
+    {
+      display: flex;
+      flex-direction: column;
+
+
+      h2
+      {
+        order: 2;
+      }
+
+      img
+      {
+        order: 1;
+
+        display: block;
+        width: 100%;
+        height: line-measure(6.5);
+        object-fit: cover;
+      }
+
+      p
+      {
+        order: 3;
+      }
+    }
   }
 }
