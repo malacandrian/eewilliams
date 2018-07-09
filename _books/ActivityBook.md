@@ -77,4 +77,6 @@
               type: image/jpg
           defaultImage: shortBook-Default.jpg
 ---
-A book with a bunch of activities to help you run a youth club, holiday club, or trip away.
+A bunch of activities that link to the passage and show Jesus to help you run a youth club, holiday club, or trip away.<!--more-->
+
+**Parents:** Why not buy this to use with your children, and teach them about Jesus through the time you spend playing and making crafts with them?

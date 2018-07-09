@@ -77,4 +77,4 @@
             type: image/jpg
           defaultImage: shortBook-Default.jpg
 ---
-An accessible Bible commentary. Helpfully laid out to draw your attention to the main points of the passage.
+An accessible Bible commentary. Helpfully laid out to draw your attention to how the passage shows us Jesus.

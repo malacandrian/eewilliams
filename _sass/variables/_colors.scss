@@ -1,6 +1,7 @@
 /* Main Colors */
 $black : hsla(0,0%,0%,1);
 $white : hsla(0,100%,100%,1);
+$shadow : transparentize($black, 0.75);
 
 $blue1 : hsla(220,54%,27%,1);
 $blue2 : hsla(220,67%,33%,1);
