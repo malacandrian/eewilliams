@@ -4,6 +4,8 @@
   collection: series
   permalink: /series
 
+  archive-root: series/
+
   sort:
     by: date
     descending: true

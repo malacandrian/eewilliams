@@ -11,7 +11,7 @@
     <a href="{{item.url}}">
       <menuitem>
         <h2>{{item.title}}</h2>
-        {% capture root %}{{site.data.resources.imgRoot}}/archive{% endcapture %}
+        {% capture root %}{{site.data.resources.imgRoot}}/{{page.archive-root}}{% endcapture %}
         {% include picture.html picture=item.archive-picture root=root %}
         {{item.excerpt}}
       </menuitem>
