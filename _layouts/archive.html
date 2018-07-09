@@ -1,5 +1,17 @@
 ---
   layout: main
+
+  comingSoon:
+    altText: Coming Soon
+    titleText: Coming Soon
+
+    defaultImage: coming-soon.png
+
+    imageSources:
+      -
+        srcset: coming-soon.svg
+        media: ""
+        type: "image/svg"
 ---
 {{ content }}
 <menu class="archive">
@@ -8,12 +20,20 @@
     {% assign collection = collection | reverse %}
   {% endif %}
   {% for item in collection %}
-    <a href="{{item.url}}">
+    <a
+      {% unless item.coming-soon %}
+        href="{{item.url}}"
+      {% endunless %}
+      >
       <menuitem>
         <h2>{{item.title}}</h2>
         {% capture root %}{{site.data.resources.imgRoot}}/{{page.archive-root}}{% endcapture %}
-        {% include picture.html picture=item.archive-picture root=root %}
+        {% include picture.html picture=item.archive-picture root=root class="archive-banner" %}
         {{item.excerpt}}
+        {% if item.coming-soon %}
+          {% capture iconRoot %}{{site.data.resources.imgRoot}}/icons/{% endcapture %}
+          {% include picture.html picture=layout.comingSoon root=iconRoot class="coming-soon" %}
+        {% endif %}
       </menuitem>
     </a>
   {% endfor %}

@@ -2,6 +2,8 @@
   title: "God's Chosen King"
   date: 2018-11-01
 
+  coming-soon: true
+
   archive-picture:
     titleText: David
     altText: David
@@ -14,4 +16,4 @@
         media: ""
         type: "image/svg"
 ---
-What kind of king do we have? We see what a great king Jesus is by looking at the life of David.
+See what a great king Jesus is by looking at the life of his chosen king, David.

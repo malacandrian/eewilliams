@@ -11,11 +11,9 @@ $archive-card-padding: 15px;
 
     menuitem
     {
-
-
       height: line-measure(10);
       margin-bottom: line-measure(0.5);
-      border: 3px solid $blue1;
+      border: 3px solid $black;
       box-shadow: 3px 3px $shadow;
 
       display: grid;
@@ -39,7 +37,6 @@ $archive-card-padding: 15px;
 
     p
     {
-      text-align: center;
       grid-area: text;
     }
 
@@ -47,23 +44,15 @@ $archive-card-padding: 15px;
     {
       width: calc(50% - 1.5rem);
       min-width: $archive-card-width;
-
-      &, &:link, &:visited, &:hover, &:active
-      {
-        text-decoration: none;
-        color: $black;
-      }
     }
 
-    img
+    .archive-banner
     {
-      width: 100%;
-      height: line-measure(6.5);
-      object-fit: cover;
-      display: block;
       border-bottom: 2px solid $blue1;
       grid-area: picture;
     }
+
+
   }
 }
 
@@ -71,28 +60,20 @@ $archive-card-padding: 15px;
 {
   .archive
   {
-    a
-    {
 
-      &, &:link, &:visited, &:hover, &:active
-      {
-        text-decoration: none;
-        color: $black;
-      }
-    }
 
     menuitem
     {
       display: flex;
       flex-direction: column;
-
+      margin-bottom: line-measure(1);
 
       h2
       {
         order: 2;
       }
 
-      img
+      .archive-banner
       {
         order: 1;
 
@@ -106,6 +87,46 @@ $archive-card-padding: 15px;
       {
         order: 3;
       }
+    }
+  }
+}
+
+.archive
+{
+  menuitem
+  {
+    position: relative;
+  }
+
+  .archive-banner
+  {
+    display: block;
+    object-fit: cover;
+    height: line-measure(6.5);
+    width: 100%;
+  }
+
+  .coming-soon
+  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px;
+    width: 100px;
+  }
+
+  p
+  {
+    text-align: center;
+  }
+
+  a
+  {
+
+    &, &:link, &:visited, &:hover, &:active
+    {
+      text-decoration: none;
+      color: $black;
     }
   }
 }

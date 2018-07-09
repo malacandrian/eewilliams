@@ -2,6 +2,8 @@
   title: "Tragedy to Triumph"
   date: 2018-09-01
 
+  coming-soon: true
+
   archive-picture:
     titleText: Ruth
     altText: Ruth
@@ -15,4 +17,4 @@
         type: "image/svg"
 
 ---
-See the hope that resurrection brings through the book of Ruth.
+See the hope that new life brings through the book of Ruth.
