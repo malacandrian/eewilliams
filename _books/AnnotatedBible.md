@@ -5,76 +5,28 @@
     -
         title: "Word Definitions"
         text: >-
-          Word definition boxes help you understand unfamiliar words in their biblical context.
-        imageSources:
-          -
-            srcset: shortBook-hiDPI.jpg
-            media: "(min-device-pixel-ratio: 1.5)"
-            type: image/jpg
-          -
-            srcset: shortBook-Regular.jpg
-            media: "screen"
-            type: image/jpg
-        defaultImage: shortBook-Default.jpg
+          Word definition boxes help you understand words in their biblical context.
 
     -
           title: "Cross-References"
           text: >-
-            Cross-reference boxes help point you to other places you can see this idea in the bible.
-          imageSources:
-          -
-            srcset: shortBook-hiDPI.jpg
-            media: "(min-device-pixel-ratio: 1.5)"
-            type: image/jpg
-          -
-            srcset: shortBook-Regular.jpg
-            media: "screen"
-            type: image/jpg
-          defaultImage: shortBook-Default.jpg
+            Cross-reference boxes direct you to see this in other parts of the Bible.
 
     -
           title: "Application"
           text: >-
-            Application boxes help you apply the text to the way you live your life.
-          imageSources:
-          -
-            srcset: shortBook-hiDPI.jpg
-            media: "(min-device-pixel-ratio: 1.5)"
-            type: image/jpg
-          -
-            srcset: shortBook-Regular.jpg
-            media: "screen"
-            type: image/jpg
-          defaultImage: shortBook-Default.jpg
+            Application boxes show you how Jesus does this for us.
 
     -
           title: "Story Point"
           text: >-
-            Story point boxes help to explain what has just happened in the passage.
-          imageSources:
-          -
-            srcset: shortBook-hiDPI.jpg
-            media: "(min-device-pixel-ratio: 1.5)"
-            type: image/jpg
-          -
-            srcset: shortBook-Regular.jpg
-            media: "screen"
-            type: image/jpg
-          defaultImage: shortBook-Default.jpg
+            Story point boxes explain what has just happened in the passage.
+
 
     -
           title: "Interesting Facts"
           text: >-
-            Interesting fact boxes highlight all the interesting things you can find along the way to the main point of the passage.
-          imageSources:
-          -
-            srcset: shortBook-hiDPI.jpg
-            media: "(min-device-pixel-ratio: 1.5)"
-            type: image/jpg
-          -
-            srcset: shortBook-Regular.jpg
-            media: "screen"
-            type: image/jpg
-          defaultImage: shortBook-Default.jpg
+            Interesting fact boxes are side-points that are worth knowing.
+
 ---
-An accessible Bible commentary. Helpfully laid out to draw your attention to how the passage shows us Jesus.
+An unusual Bible commentary: like a journaling Bible with the notes already filled in.
