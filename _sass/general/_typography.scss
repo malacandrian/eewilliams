@@ -68,7 +68,21 @@ a, a:link, a:visited, a:hover, a:active
 {
   text-decoration: underline;
   font-weight: bold;
-  color: $black;
+}
+
+a:link
+{
+  color: $blue2;
+}
+
+a:visited
+{
+  color: $blue1;
+}
+
+a:hover, a:active
+{
+  color: $blue4;
 }
 
 .main-menu
