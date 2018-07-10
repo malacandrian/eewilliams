@@ -28,10 +28,12 @@
       <menuitem>
         <h2>{{item.title}}</h2>
         {% capture root %}{{site.data.resources.imgRoot}}/{{page.archive-root}}{% endcapture %}
-        {% include picture.html picture=item.archive-picture root=root class="archive-banner" %}
+        <div class="archive-banner" style="background-color: {{item.color}}">
+          {% include picture.html picture=item.archive-picture root=root class="" %}
+        </div>
         {{item.excerpt}}
         {% if item.coming-soon %}
-          {% capture iconRoot %}{{site.data.resources.imgRoot}}/icons/{% endcapture %}
+          {% capture iconRoot %}{{site.data.resources.imgRoot}}{{site.data.resources.iconRoot}}{% endcapture %}
           {% include picture.html picture=layout.comingSoon root=iconRoot class="coming-soon" %}
         {% endif %}
       </menuitem>

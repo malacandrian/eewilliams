@@ -45,6 +45,16 @@
 
         <footer class="pageFooter">
           <p>©EE Williams 2018. All Rights Reserved.</p>
+
+          <menu class="social-media">
+            {% capture iconRoot %}{{site.data.resources.imgRoot}}{{site.data.resources.iconRoot}}{% endcapture %}
+            {% for item in site.data.resources.social-media %}
+              <menuitem>
+                <a href="{{item.url}}">
+                  {% include picture.html picture=item.icon root=iconRoot %}
+                </a>
+              </menuitem>
+            {% endfor %}
         </footer>
       </div>
   </body>

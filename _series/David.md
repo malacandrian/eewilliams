@@ -1,8 +1,11 @@
 ---
+  name: David
   title: "God's Chosen King"
   date: 2018-11-01
 
   coming-soon: true
+
+  color: hsl(81, 38%, 24%)
 
   archive-picture:
     titleText: David

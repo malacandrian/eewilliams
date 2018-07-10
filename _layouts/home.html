@@ -1,5 +1,17 @@
 ---
   layout: main
 ---
-
+{% capture root %}{{site.data.resources.imgRoot}}/series/{% endcapture %}
+{% assign series = site.series | where: 'name', page.featured-series | first  %}
+<a href="{{series.url}}" class="hero-link">
+  <div class="hero" style="background-color: {{series.color}}">
+    <div class="hero-image">
+      {% include picture.html picture=series.archive-picture root=root class="" %}
+    </div>
+    <div class="hero-text">
+      <h1>{{series.title}}</h1>
+      {{series.content}}
+    </div>
+  </div>
+</a>
 {{content}}

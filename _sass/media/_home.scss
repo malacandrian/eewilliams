@@ -1,0 +1,41 @@
+.hero
+{
+  display: flex;
+  height: line-measure(10);
+  margin-bottom: line-measure(0.5);
+
+  border-top: 3px solid $black;
+  border-bottom: 3px solid $black;
+
+  .hero-image
+  {
+    width: 80%;
+    padding: 1rem;
+
+    img
+    {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      object-position: center;
+    }
+  }
+
+  .hero-text
+  {
+    h1
+    {
+      color: $white;
+    }
+    color: $white;
+    text-align: center;
+  }
+}
+
+a.hero-link
+{
+    &, &:link, &:visited, &:hover, &:active
+    {
+      text-decoration: none;
+    }
+}
