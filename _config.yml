@@ -30,6 +30,8 @@ collections:
     permalink: /books/:slug
   series:
     output: false
+  uses:
+    output: false
 
 
 

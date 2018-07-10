@@ -1,1 +1,48 @@
 imgRoot: /resources/images/
+iconRoot: icons/
+
+social-media:
+  -
+    name: Facebook
+    url: https://fb.me/EEWilliamsTheology
+    icon:
+      altText: Find us on Facebook
+      titleText: Find us on Facebook
+
+      defaultImage: facebook.png
+
+      imageSources:
+        -
+          srcset: facebook.svg
+          media: ""
+          type: image/svg
+
+  -
+    name: Twitter
+    url: https://twitter.com/_eewilliams
+    icon:
+      altText: Follow us on Twitter
+      titleText: Follow us on Twitter
+
+      defaultImage: twitter.png
+
+      imageSources:
+        -
+          srcset: twitter.svg
+          media: ""
+          type: image/svg
+
+  -
+    name: Instagram
+    url: https://www.instagram.com/eewilliams/
+    icon:
+      altText: Follow us on Instagram
+      titleText: Follow us on Instagram
+
+      defaultImage: instagram.png
+
+      imageSources:
+        -
+          srcset: instagram.svg
+          media: ""
+          type: image/svg

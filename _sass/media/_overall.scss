@@ -50,4 +50,20 @@ main
 
   text-align: center;
   color: $blue4;
+  position: relative;
+
+  .social-media
+  {
+    position: absolute;
+    top: 0;
+    right: 0;
+    menuitem
+    {
+      margin-right: 1rem;
+    }
+    img
+    {
+      height: line-measure(1);
+    }
+  }
 }
