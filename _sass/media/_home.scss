@@ -10,7 +10,7 @@
   .hero-image
   {
     width: 80%;
-    padding: 1rem;
+    padding: line-measure(0.5);
 
     img
     {
@@ -21,14 +21,39 @@
     }
   }
 
+  .hero-side
+  {
+    display: flex;
+    flex-direction: column;
+  }
+
   .hero-text
   {
+    margin-top: line-measure(0.5);
     h1
     {
       color: $white;
     }
     color: $white;
     text-align: center;
+
+    flex-grow: 1;
+  }
+
+  .hero-seemore
+  {
+    padding: line-measure(0.5);
+    height: line-measure(3);
+
+    flex-grow: 0;
+
+    img
+    {
+      height: 100%;
+      width: 100%;
+      object-fit: contain;
+      object-position: right;
+    }
   }
 }
 

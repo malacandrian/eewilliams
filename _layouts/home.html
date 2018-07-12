@@ -1,5 +1,17 @@
 ---
   layout: main
+
+  seemore:
+    altText: "See More"
+    titleText: "See More"
+
+    defaultImage: seemore.png
+    imageSources:
+      -
+        srcset: seemore.svg
+        media: ""
+        type: "image/svg"
+
 ---
 {% capture root %}{{site.data.resources.imgRoot}}/series/{% endcapture %}
 {% assign series = site.series | where: 'name', page.featured-series | first  %}
@@ -8,10 +20,27 @@
     <div class="hero-image">
       {% include picture.html picture=series.archive-picture root=root class="" %}
     </div>
-    <div class="hero-text">
-      <h1>{{series.title}}</h1>
-      {{series.content}}
+    <div class="hero-side">
+      <div class="hero-text">
+        <h1>{{series.title}}</h1>
+        {{series.content}}
+      </div>
+      <div class="hero-seemore">
+        {% capture iconRoot %}{{site.data.resources.imgRoot}}{{site.data.resources.iconRoot}}{% endcapture %}
+        {% include picture.html picture=layout.seemore root=iconRoot class="" %}
+      </div>
     </div>
+
+    <menu class="home-books">
+      {% capture coverRoot %}{{site.data.resources.imgRoot}}{{site.data.resources.coverRoot}}{{book.slug}}{% endcapture %}
+      {% for book in series.books %}
+        <menuitem>
+          {% include picture.html picture=book.cover root=coverRoot %}
+          <span>{{book.title}}</span>
+        </menuitem>
+      {% endfor %}
+    </menu>
+
   </div>
 </a>
 {{content}}
