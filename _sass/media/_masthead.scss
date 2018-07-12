@@ -86,12 +86,14 @@
   {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 
-    menuitem
+    a
     {
       flex-grow: 1;
       text-align: center;
       border-left: 1px solid $black;
+      border-bottom: 1px solid $black;
 
       font-weight: bold;
 
@@ -100,13 +102,11 @@
         border-left: none;
       }
 
-      a
+
+      &:link, &:visited, &:hover, &:active
       {
-        &:link, &:visited, &:hover, &:active
-        {
-          color: $white;
-          text-decoration: none;
-        }
+        color: $white;
+        text-decoration: none;
       }
     }
   }
