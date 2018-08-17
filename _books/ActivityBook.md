@@ -12,7 +12,7 @@
         text: >-
           Craft ideas which any parent would be delighted to display in their home. Each craft comes with options to make them cheaper, simpler, or better.
 
-         picture:
+        picture:
           defaultImage: Craft1.jpg
 
     -
@@ -20,7 +20,7 @@
         text: >-
           See how games you know can be linked to the passage.
 
-         picture:
+        picture:
           defaultImage: Craft2.jpg
 
     -
@@ -28,7 +28,7 @@
         text: >-
           Looking for an activity to fill more time, home or away? Use an event idea that links to the passage.
 
-         picture:
+        picture:
           defaultImage: Craft3.jpg
 
     -
