@@ -7,9 +7,15 @@
         title: "Easy reading book"
         text: >-
           An easy, short reading book that explains the passage and helps you see Jesus.
+
+        picture:
+          defaultImage: EasyReading.png
     -
-          title: "Q&A"
-          text: >-
-            Each chapter ends with questions to dig deeper into the passage.
+        title: "Q&A"
+        text: >-
+          Each chapter ends with questions to dig deeper into the passage.
+
+        picture:
+          defaultImage: QandA.png
 ---
 A short book that explains the passage and helps you see Jesus. It uses accessible language while remaining theologically rich.<!--more-->
