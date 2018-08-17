@@ -35,6 +35,9 @@
         title: "Resources"
         text: >-
           Throughout the book there are templates you can photocopy to make preparing the activities faster.
+
+        picture:
+          defaultImage: Craft4.jpg
     -
         title: "Drama"
         text: >-
