@@ -3,7 +3,7 @@
   slug: puzzle
 
   archive-picture:
-    defaultImage: PuzzleBook.jpg
+    defaultImage: PuzzleBook2.png
 
   features:
     -
