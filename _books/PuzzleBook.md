@@ -1,6 +1,10 @@
 ---
   title: "Puzzle Book"
   slug: puzzle
+
+  archive-picture:
+    defaultImage: PuzzleBook.jpg
+
   features:
     -
         title: "Colouring In"
