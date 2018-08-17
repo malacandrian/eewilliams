@@ -4,7 +4,7 @@
 
   archive-picture:
     defaultImage: ActivityBook.jpg
-    
+
 
   features:
     -
@@ -12,15 +12,24 @@
         text: >-
           Craft ideas which any parent would be delighted to display in their home. Each craft comes with options to make them cheaper, simpler, or better.
 
+         picture:
+          defaultImage: Craft1.jpg
+
     -
         title: "Games"
         text: >-
           See how games you know can be linked to the passage.
 
+         picture:
+          defaultImage: Craft2.jpg
+
     -
         title: "Events"
         text: >-
           Looking for an activity to fill more time, home or away? Use an event idea that links to the passage.
+
+         picture:
+          defaultImage: Craft3.jpg
 
     -
         title: "Resources"
