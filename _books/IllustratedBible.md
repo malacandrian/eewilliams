@@ -1,6 +1,10 @@
 ---
   title: "Illustrated Bible"
   slug: illustrated
+
+  archive-picture:
+    defaultImage: IllustratedBible.png
+
   features:
     -
         title: "The Story"

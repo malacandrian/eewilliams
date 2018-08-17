@@ -1,6 +1,8 @@
 ---
   title: "Bible in a Nutshell"
   slug: nutshell
+  archive-picture:
+    defaultImage: BibleInANutshell.png
 
   features:
     -

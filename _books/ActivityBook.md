@@ -1,6 +1,11 @@
 ---
   title: "Activity Book"
   slug: activity
+
+  archive-picture:
+    defaultImage: ActivityBook.jpg
+    
+
   features:
     -
         title: "Crafts"

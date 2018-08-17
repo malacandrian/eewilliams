@@ -1,6 +1,10 @@
 ---
   title: "Annotated Bible"
   slug: annotated
+
+  archive-picture:
+    defaultImage: AnnotatedBible.png
+
   features:
     -
         title: "Word Definitions"
