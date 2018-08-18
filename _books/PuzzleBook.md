@@ -16,7 +16,10 @@
 
     -
           title: "Fill in the blanks"
-          text: >-  FillInTheBlanks1.png
+          text: >-  
+          
+          picture:
+            defaultImage: FillInTheBlanks1.png
 
 
     -
