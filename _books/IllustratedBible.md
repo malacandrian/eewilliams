@@ -11,6 +11,9 @@
         text: >-
           The left page is dedicated to telling the story.
 
+        picture:
+         defaultImage: Characters.png
+
     -
           title: "Jelly and Jackson"
           text: >-
