@@ -19,6 +19,9 @@
           text: >-
             Cross-reference boxes direct you to see this in other parts of the Bible.
 
+        picture:
+          defaultImage: CrossReference1.png
+
     -
           title: "Application"
           text: >-
