@@ -27,6 +27,9 @@
           text: >-
             Application boxes show you how Jesus does this for us.
 
+        picture:
+          defaultImage: Application1.png
+
     -
           title: "Story Point"
           text: >-
