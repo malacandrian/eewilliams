@@ -39,6 +39,9 @@
           title: "And More!"
           text: >-
 
+        picture:
+          defaultImage: More1.png
+
 ---
 A fun, interactive way to understand the Bible. Work through the book from start to finish to unfold the story puzzle by puzzle.<!--more-->
 
