@@ -32,6 +32,9 @@
           text: >-
             Story point boxes explain what has just happened in the passage.
 
+        picture:
+          defaultImage: StoryPoint1.png
+
 
     -
           title: "Interesting Facts"
