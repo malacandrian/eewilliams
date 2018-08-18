@@ -10,6 +10,9 @@
         title: "Colouring In"
         text: >-
 
+        picture:
+          defaultImage: ColouringIn1.png
+
     -
           title: "Drawing"
           text: >-
