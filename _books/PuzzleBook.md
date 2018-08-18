@@ -13,14 +13,10 @@
         picture:
           defaultImage: ColouringIn1.png
 
-    -
-          title: "Drawing"
-          text: >-
-
 
     -
           title: "Fill in the blanks"
-          text: >-
+          text: >-  FillInTheBlanks1.png
 
 
     -
