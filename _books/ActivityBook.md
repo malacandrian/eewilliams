@@ -29,7 +29,7 @@
           Looking for an activity to fill more time, home or away? Use an event idea that links to the passage.
 
         picture:
-          defaultImage: Event1
+          defaultImage: Event1.png
 
     -
         title: "Resources"
@@ -37,7 +37,7 @@
           Throughout the book there are templates you can photocopy to make preparing the activities faster.
 
         picture:
-          defaultImage:
+          defaultImage: Resources1.png
     -
         title: "Drama"
         text: >-
