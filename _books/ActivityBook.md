@@ -21,7 +21,7 @@
           See how games you know can be linked to the passage.
 
         picture:
-          defaultImage:
+          defaultImage: Game1.png
 
     -
         title: "Events"
