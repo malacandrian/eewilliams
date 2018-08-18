@@ -41,5 +41,8 @@
           text: >-
             Interesting fact boxes are side-points that are worth knowing.
 
+        picture:
+          defaultImage: InterestingFact1.png
+
 ---
 An unusual Bible commentary: like a journaling Bible with the notes already filled in.
