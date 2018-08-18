@@ -29,7 +29,7 @@
           Looking for an activity to fill more time, home or away? Use an event idea that links to the passage.
 
         picture:
-          defaultImage:
+          defaultImage: Event1
 
     -
         title: "Resources"
