@@ -25,6 +25,10 @@
           title: "Mazes"
           text: >-
 
+        picture:
+          defaultImage: Maze1.png
+
+
 
     -
           title: "Unjumble the words"
