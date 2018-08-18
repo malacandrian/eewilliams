@@ -18,6 +18,10 @@
           title: "Jelly and Jackson"
           text: >-
             The right hand page features Jelly and Jackson. They explain the passage and model good questions to ask of the Bible.
+
+        picture:
+         defaultImage: JellyandJackson.png
+
 ---
 A book to show even the little ones the beauty of Jesus in the passage.<!--more-->
 
