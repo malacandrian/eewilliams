@@ -11,6 +11,9 @@
         text: >-
           Word definition boxes help you understand words in their biblical context.
 
+        picture:
+          defaultImage: WordDefinition1.png
+
     -
           title: "Cross-References"
           text: >-
