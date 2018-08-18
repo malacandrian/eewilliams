@@ -6,13 +6,6 @@
     defaultImage: PuzzleBook2.png
 
   features:
-    -
-        title: "Colouring In"
-        text: >-
-
-        picture:
-          defaultImage: ColouringIn1.png
-
 
     -
           title: "Fill in the blanks"
@@ -21,6 +14,12 @@
           picture:
             defaultImage: FillInTheBlanks1.png
 
+    -
+        title: "Colouring In"
+        text: >-
+
+        picture:
+          defaultImage: ColouringIn1.png
 
     -
           title: "Mazes"
