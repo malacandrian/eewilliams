@@ -26,8 +26,8 @@
           text: >-
 
          picture:
-          defaultImage: Wordsearch1
-          
+          defaultImage: Wordsearch1.png
+
     -
           title: "Mazes"
           text: >-
