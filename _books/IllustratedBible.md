@@ -15,9 +15,9 @@
          defaultImage: Characters.png
 
     -
-          title: "Jelly and Jackson"
-          text: >-
-            The right hand page features Jelly and Jackson. They explain the passage and model good questions to ask of the Bible.
+        title: "Jelly and Jackson"
+        text: >-
+          The right hand page features Jelly and Jackson. They explain the passage and model good questions to ask of the Bible.
 
         picture:
          defaultImage: JellyandJackson.png

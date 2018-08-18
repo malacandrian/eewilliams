@@ -15,6 +15,14 @@
           defaultImage: WordDefinition1.png
 
     -
+        title: "Application"
+        text: >-
+          Application boxes show you how Jesus does this for us.
+
+        picture:
+          defaultImage: Application1.png
+
+    -
         title: "Cross-References"
         text: >-
           Cross-reference boxes direct you to see this in other parts of the Bible.
@@ -22,13 +30,7 @@
         picture:
           defaultImage: CrossReference1.png
 
-    -
-        title: "Application"
-        text: >-
-          Application boxes show you how Jesus does this for us.
 
-        picture:
-          defaultImage: Application1.png
 
     -
         title: "Story Point"
