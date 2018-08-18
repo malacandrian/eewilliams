@@ -22,41 +22,18 @@
           defaultImage: ColouringIn1.png
 
     -
+          title: "Word Searches"
+          text: >-
+
+         picture:
+          defaultImage: Wordsearch1
+          
+    -
           title: "Mazes"
           text: >-
 
         picture:
           defaultImage: Maze1.png
-
-
-
-    -
-          title: "Unjumble the words"
-          text: >-
-
-
-    -
-          title: "Code Solving"
-          text: >-
-
-
-    -
-          title: "Word Searches"
-          text: >-
-
-
-    -
-          title: "Spot the Difference"
-          text: >-
-
-    -
-          title: "Odd one Out"
-          text: >-
-
-    -
-          title: "Crosswords"
-          text: >-
-
 
     -
           title: "And More!"
