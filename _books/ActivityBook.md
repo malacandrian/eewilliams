@@ -44,6 +44,6 @@
           A short drama is provided for each session to help tell the events of the story in a funny way.
 
         picture:
-          defaultImage:
+          defaultImage: Drama1.png
 ---
 A bunch of activities linked to the passage to help you show Jesus through doing.<!--more-->
