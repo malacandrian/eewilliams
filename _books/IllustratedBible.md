@@ -6,13 +6,6 @@
     defaultImage: IllustratedBible.png
 
   features:
-    -
-        title: "The Story"
-        text: >-
-          The left page is dedicated to telling the story.
-
-        picture:
-         defaultImage: Characters.png
 
     -
         title: "Jelly and Jackson"
@@ -21,6 +14,16 @@
 
         picture:
          defaultImage: JellyandJackson.png
+
+    -
+        title: "The Story"
+        text: >-
+          The left page is dedicated to telling the story.
+
+        picture:
+         defaultImage: Characters.png
+
+
 
 ---
 A book to show even the little ones the beauty of Jesus in the passage.<!--more-->
