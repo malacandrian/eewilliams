@@ -3,7 +3,8 @@
   title: "Tragedy to Triumph"
   date: 2018-09-01
 
-  coming-soon: true
+  coming-soon: false
+  lulu-link: https://www.lulu.com/shop/search.ep?title=Ruth&contributorId=1594706
 
   color: hsl(330, 50%, 30%)
 

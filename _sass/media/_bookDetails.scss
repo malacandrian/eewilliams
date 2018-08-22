@@ -109,3 +109,8 @@ $bookDetails-features-height: 7;
     }
   }
 }
+
+.see-more
+{
+  @include font-modular-scale(1);
+}

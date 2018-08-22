@@ -2,6 +2,8 @@
   title: "Puzzle Book"
   slug: puzzle
 
+  lulu-link: https://www.lulu.com/shop/search.ep?title=Puzzle+Book&contributorId=1594706
+
   archive-picture:
     defaultImage: PuzzleBook2.png
 

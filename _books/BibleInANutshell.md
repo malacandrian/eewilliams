@@ -1,6 +1,9 @@
 ---
   title: "Bible in a Nutshell"
   slug: nutshell
+
+  lulu-link: https://www.lulu.com/shop/search.ep?title=Bible+In+A+Nutshell&contributorId=1594706
+
   archive-picture:
     defaultImage: BibleInANutshell.png
 

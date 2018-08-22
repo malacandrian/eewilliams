@@ -2,6 +2,8 @@
   title: "Annotated Bible"
   slug: annotated
 
+  lulu-link: https://www.lulu.com/shop/search.ep?title=Annotated+Bible&contributorId=1594706
+
   archive-picture:
     defaultImage: AnnotatedBible.png
 

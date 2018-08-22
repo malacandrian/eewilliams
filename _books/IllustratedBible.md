@@ -2,6 +2,8 @@
   title: "Illustrated Bible"
   slug: illustrated
 
+  lulu-link: https://www.lulu.com/shop/search.ep?title=Illustrated+Bible&contributorId=1594706
+
   archive-picture:
     defaultImage: IllustratedBible.png
 

@@ -2,6 +2,8 @@
   title: "Activity Book"
   slug: activity
 
+  lulu-link: https://www.lulu.com/shop/search.ep?title=Activity+Book&contributorId=1594706
+
   archive-picture:
     defaultImage: ActivityBook.jpg
 

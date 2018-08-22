@@ -15,7 +15,7 @@
 ---
 {% capture root %}{{site.data.resources.imgRoot}}/series/{% endcapture %}
 {% assign series = site.series | where: 'name', page.featured-series | first  %}
-<a href="{{series.url}}" class="hero-link">
+<a href="{{series.lulu-link}}" class="hero-link">
   <div class="hero" style="background-color: {{series.color}}">
     <div class="hero-image">
       {% include picture.html picture=series.archive-picture root=root class="" %}

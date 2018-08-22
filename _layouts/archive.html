@@ -20,9 +20,15 @@
     {% assign collection = collection | reverse %}
   {% endif %}
   {% for item in collection %}
+    
     <a
       {% unless item.coming-soon %}
-        href="{{item.url}}"
+        {% if item.use-local %}
+          {% assign url=item.url %}
+        {% else %}
+          {% assign url=item.lulu-link %}
+        {% endif %}
+        href="{{url}}"
       {% endunless %}
       >
       <menuitem>

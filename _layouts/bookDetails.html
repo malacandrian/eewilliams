@@ -3,6 +3,8 @@
 ---
 {{ content }}
 
+{% include seeMore.html url=page.lulu-link %}
+
 <ul class="features">
   {% for feature in page.features %}
     <li>
@@ -15,3 +17,5 @@
     </li>
   {% endfor %}
 </ul>
+
+{% include seeMore.html url=page.lulu-link %}
